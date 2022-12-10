@@ -1,0 +1,103 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(68deg, #0b002e, #46013d);
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+div[type=Inputs] {
+    padding-bottom: 1%;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+    display: inline;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    color: aliceblue;
+    background-color: rgba(24, 0, 31, 40%);
+    border: none;
+    border-radius: 5%;
+
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+    height: 40px;
+    width: 5%;
+    min-width: 40px;
+}
+
+input[type=number]:hover {
+    transition: 0.2s;
+    background-color: #3b1135;
+}
+
+input[type=number]:focus {
+    transition: 0.2s;
+    background-color: #610154;
+
+    outline: none;
+}
+
+
+select {
+    background-color: rgba(24, 0, 31, 20%);
+    color: aliceblue;
+    height: 40px;
+    width: 5%;
+    min-width: 95px;
+
+    border: none;
+    border-radius: 5%;
+}
+
+select:hover {
+    transition: 0.2s;
+    background-color: #610154;
+}
+
+
+button {
+    height: 40px;
+    width: 5%;
+    min-width: 95px;
+
+    color: aliceblue;
+    background-color: rgba(24, 0, 31, 20%);
+
+    border: none;
+
+    border-radius: 5%;
+}
+
+button:hover {
+    transition: 0.2s;
+    background-color: #400053;
+}
+
+button:active {
+    transition: 0.2s;
+    background-color: #2a0036;
+    color: #A0A5AA;
+    width: 6%;
+
+    border-radius: 15%;
+}

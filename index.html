@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Unit Converter</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<h1><em>The</em> Unit Converter</h1>
+	<div name="inputs">
+		<div name="InputFieldOne" type="Inputs">
+			<input id="input" type="number">
+
+			<select name="types" id="typesOne">
+				<option value="Celsius">Celsius</option>
+				<option value="Fahrenheit">Fahrenheit</option>
+			</select>
+		</div>
+		<div name="InputFieldTwo" type="Inputs">
+			<h3>Convert To: </h3>
+
+			<select name="types" id="typesTwo">
+				<option value="Fahrenheit">Fahrenheit</option>
+				<option value="Celsius">Celsius</option>
+			</select>
+		</div>
+		<button onclick="convert()" name="Convert">Convert</button>
+		<h1 id="ouput"></h1>
+	</div>
+	<script src="conversion.js" async defer></script>
+</body>
+
+</html>
