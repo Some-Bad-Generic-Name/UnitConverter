@@ -1,9 +1,9 @@
 <h1>
 This is a Unit Converter I made as some basic practice. The goal is to have it convert most of the common units for their given type.
 </h1>
-<h2>
+<h3>
 As of now there is only fahrenheit to celsius and vice versa.
-</h2>
+</h3>
 
 <p>TODO:</p>
 
