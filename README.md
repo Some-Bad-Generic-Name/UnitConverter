@@ -8,6 +8,6 @@ As of now there is only fahrenheit to celsius and vice versa.
 <p>TODO:</p>
 
 - [x] Convert temps from Celsius and Fahrenheit and the other way around
-- [] Add the ability to select types of units
-- [] Adding weight units
-- [] Adding distance units
+- [ ] Add the ability to select types of units
+- [ ] Adding weight units
+- [ ] Adding distance units
